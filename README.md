@@ -10,8 +10,16 @@ Ce projet permet de traiter les données extraites d'un fichier ZIP provenant d'
 - Interface graphique (GUI) pour interagir avec les données et générer les fichiers CSV.
 - Création de fichiers CSV organisés pour faciliter l'analyse.
 
+## Structure du Projet V1
 
-## Structure du Projet
+Le projet est structuré comme suit :
+
+- `dal_graphique.py` : Gère l'interface graphique de l'application.
+- `data_day_by_day.py` : Génère les données des veaux jour par jour.
+- `data_pass_by_pass.py` : Crée les données avec une buvée par veau.
+- `SIGPA.py` : Génère le fichier CSV contenant les données pour la base SIGPA.
+
+## Structure du Projet V2
 
 Le projet est structuré comme suit :
 
@@ -30,7 +38,7 @@ Pour installer et exécuter le projet, suivez ces étapes :
    git clone [URL_DU_DEPOT]
 2. **Accédez au répertoire de la version du projet** :
    ```bash
-   cd V2
+   cd [Version_du_project]
 3. **Activez l'environnement** :
    ```bash
    .env\Scripts\Activate
@@ -65,4 +73,3 @@ Ce projet est sous la General Public License (GPL). Vous êtes libre de modifier
 
 - Nom : Botté Siméon
 - Maître de Stage : Christophe Staub
-
