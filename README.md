@@ -71,10 +71,14 @@ Pour installer et exécuter le projet, suivez ces étapes :
    pip install pyinstaller
 2. **Allez dans le repertoire contenant le GUI** :
    ```bash
-    cd v2
+   cd v2
 3. **creez l'executable** :
    ```bash
    pyinstaller --onefile --noconsole --add-data "languages.json;." main.py
+   
+- Le fichier .exe se situe dans le dossier dist, qui est créé lors de la configuration de l'exécutable. Vous pouvez utiliser cet exécutable depuis n'importe quel emplacement sur votre système.
+
+  
 
 
 ## Licence
