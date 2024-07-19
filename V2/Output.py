@@ -65,7 +65,7 @@ def sem_comp_jour(df, nb):
 
 if __name__ == "__main__":
     # Path to the ZIP file containing raw data
-    zip_filename = r'data\2024_06_03__10_12_02_touch01__csv_export.zip'
+    zip_filename = r'..\data\2024_06_03__10_12_02_touch01__csv_export.zip'
     
     # Define the start and end dates for the data extraction
     start_date = "2023-09-15"
