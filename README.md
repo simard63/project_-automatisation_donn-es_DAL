@@ -2,13 +2,14 @@
 
 ## Description
 
-Ce projet permet de traiter les données extraites d'un fichier ZIP et de créer des fichiers CSV via une interface graphique. Il est destiné aux chercheurs de l'INRAE travaillant sur les données d'un distributeur automatique de lait (DAL) de la marque URBAN. 
+Ce projet permet de traiter les données extraites d'un fichier ZIP provenant d'un distributeur automatique de lait(DAL) de la marque URBAN et de créer des fichiers CSV via une interface graphique. Il est initalement destiné aux chercheurs de l'INRAE travaillant sur ces données. 
 
 ### Fonctionnalités principales
 
 - Traitement des données contenues dans un fichier ZIP.
-- Création de fichiers CSV organisés pour faciliter l'analyse.
 - Interface graphique (GUI) pour interagir avec les données et générer les fichiers CSV.
+- Création de fichiers CSV organisés pour faciliter l'analyse.
+
 
 ## Structure du Projet
 
@@ -27,7 +28,7 @@ Pour installer et exécuter le projet, suivez ces étapes :
 1. **Clonez le dépôt** :
    ```bash
    git clone [URL_DU_DEPOT]
-2. **Accédez au répertoire du projet** :
+2. **Accédez au répertoire de la version du projet** :
    ```bash
    cd V2
 3. **Activez l'environnement** :
