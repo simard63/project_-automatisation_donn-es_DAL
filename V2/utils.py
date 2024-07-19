@@ -282,6 +282,5 @@ def curve(zip_filename, start_date="2000-01-01", end_date="3000-01-01"):
 
 if __name__ == "__main__":
     
-    #zip_filename = r'DAL\V3\Export_instutut_export_VF_G1_B2.zip'
-    zip_filename = r'donnees\2024_06_03__10_12_02_touch01__csv_export.zip'
+    zip_filename = r'..\data\2024_06_03__10_12_02_touch01__csv_export.zip'
     print(animal_data(zip_filename))
