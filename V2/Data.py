@@ -154,7 +154,7 @@ def par_jour(grouped, all, COURBE, conso_lait, visites):
     return grouped
 
 if __name__ == "__main__":
-    zip_filename = r'donnees\2024_06_03__10_12_02_touch01__csv_export.zip'
+    zip_filename = r'..\data\2024_06_03__10_12_02_touch01__csv_export.zip'
     start_date = "2023-09-15"
     end_date = "2024-03-30"
     Courbe = [6, 5, 1]
