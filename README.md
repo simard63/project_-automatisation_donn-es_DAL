@@ -66,13 +66,25 @@ Pour installer et exécuter le projet, suivez ces étapes :
 -	Générer les CSV : Remplisez le GUI avec les bouton d’information pour vous guider t cliquez sur "Extract/Extraire" pour extraire les differents fichiers CSV
 
 ## Transformer en executable windows (ex:V2)
-1. **Installez pyinstaller** :
+1. **installer virtualenv** :
+   ```bash
+   pip install virtualenv
+1. **creer un environnement virtuel** :
+   ```bash
+   python -m venv nom_de_l_environnement
+1. **Activer votre environnement vituel** :
+   ```bash
+   [Nom_DE_l_Environement]\Scripts\Activate
+1. **Installer les dependances** :
+   ```bash
+   pip install -r requirements.txt
+1. **Installer pyinstaller** :
    ```bash
    pip install pyinstaller
-2. **Allez dans le repertoire contenant le GUI** :
+2. **Aller dans le repertoire contenant le GUI** :
    ```bash
    cd v2
-3. **creez l'executable** :
+3. **creer l'executable** :
    ```bash
    pyinstaller --onefile --noconsole --add-data "languages.json;." main.py
    
