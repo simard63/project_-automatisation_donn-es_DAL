@@ -36,13 +36,13 @@ Pour installer et exécuter le projet, suivez ces étapes :
 1. **Clonez le dépôt** :
    ```bash
    git clone [URL_DU_DEPOT]
-1. **Installez les dépendances** :
+2. **Installez les dépendances** :
    ```bash
     pip install -r requirements.txt
-2. **Accédez au répertoire de la version du projet** :
+3. **Accédez au répertoire de la version du projet** :
    ```bash
    cd [Version_du_project]
-3. **Exécutez le programme principal** :
+4. **Exécutez le programme principal** :
    ```bash
    python main.py
 
@@ -61,9 +61,21 @@ Pour installer et exécuter le projet, suivez ces étapes :
    Les fichiers CSV seront créés dans le répertoire de sortie spécifié et peuvent être consultés pour l'analyse.
    
 ## Exemple d'utilisation de l'interface graphique
-
+-  Lancez le fichier main.py ou dal_graphique.py.
 -	Charger le fichier ZIP : Cliquez sur le bouton "Browse/rechercher" pour sélectionner et importer le fichier ZIP contenant les données.
 -	Générer les CSV : Remplisez le GUI avec les bouton d’information pour vous guider t cliquez sur "Extract/Extraire" pour extraire les differents fichiers CSV
+
+## Transformer en executable windows (ex:V2)
+1. **Installez pyinstaller** :
+   ```bash
+   pip install pyinstaller
+2. **Allez dans le repertoire contenant le GUI** :
+   ```bash
+    cd v2
+3. **creez l'executable** :
+   ```bash
+   pyinstaller --onefile --noconsole --add-data "languages.json;." main.py
+
 
 ## Licence
 
