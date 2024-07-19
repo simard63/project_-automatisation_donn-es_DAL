@@ -280,7 +280,7 @@ def save_dataframe(df, chemin):# save csv in the path atribute
         print(f"Error saving file: {str(e)}")
 
 if __name__=="__main__":
-    zip_filename = r'V1\donnees\2024_06_03__10_12_02_touch01__csv_export.zip'  # file of DAL's data
+    zip_filename = r'..\data\2024_06_03__10_12_02_touch01__csv_export.zip'  # file of DAL's data
     start_date = "2023-09-15"
     end_date = "2024-03-30"
     list1 = [
