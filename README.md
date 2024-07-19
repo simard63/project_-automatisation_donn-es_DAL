@@ -36,6 +36,9 @@ Pour installer et exécuter le projet, suivez ces étapes :
 1. **Clonez le dépôt** :
    ```bash
    git clone [URL_DU_DEPOT]
+1. **Installez les dépendances** :
+   ```bash
+    pip install -r requirements.txt
 2. **Accédez au répertoire de la version du projet** :
    ```bash
    cd [Version_du_project]
