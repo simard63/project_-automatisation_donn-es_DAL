@@ -27,3 +27,41 @@ Pour installer et exécuter le projet, suivez ces étapes :
 1. **Clonez le dépôt** :
    ```bash
    git clone [URL_DU_DEPOT]
+2. **Accédez au répertoire du projet** :
+   ```bash
+   cd V2
+3. **Activez l'environnement** :
+   ```bash
+   .env\Scripts\Activate
+4. **Exécutez le programme principal** :
+   ```bash
+   python main.py
+
+## Utilisation
+
+1. #### Charger les données :
+
+   Ouvrez l'interface graphique et chargez le fichier ZIP contenant les données du DAL.
+
+2. #### Générer les fichiers CSV :
+
+   Utilisez les options disponibles dans l'interface graphique pour générer les fichiers CSV nécessaires.
+
+3. #### Explorer les fichiers CSV :
+
+   Les fichiers CSV seront créés dans le répertoire de sortie spécifié et peuvent être consultés pour l'analyse.
+   
+## Exemple d'utilisation de l'interface graphique
+
+-	Charger le fichier ZIP : Cliquez sur le bouton "Browse/rechercher" pour sélectionner et importer le fichier ZIP contenant les données.
+-	Générer les CSV : Remplisez le GUI avec les bouton d’information pour vous guider t cliquez sur "Extract/Extraire" pour extraire les differents fichiers CSV
+
+## Licence
+
+Ce projet est sous la General Public License (GPL). Vous êtes libre de modifier et de redistribuer le code, à condition que les versions dérivées soient également sous GPL.
+
+## Auteurs
+
+- Nom : Botté Siméon
+- Maître de Stage : Christophe Staub
+
