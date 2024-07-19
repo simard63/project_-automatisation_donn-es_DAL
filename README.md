@@ -39,10 +39,7 @@ Pour installer et exécuter le projet, suivez ces étapes :
 2. **Accédez au répertoire de la version du projet** :
    ```bash
    cd [Version_du_project]
-3. **Activez l'environnement** :
-   ```bash
-   .env\Scripts\Activate
-4. **Exécutez le programme principal** :
+3. **Exécutez le programme principal** :
    ```bash
    python main.py
 
@@ -73,3 +70,4 @@ Ce projet est sous la General Public License (GPL). Vous êtes libre de modifier
 
 - Nom : Botté Siméon
 - Maître de Stage : Christophe Staub
+
