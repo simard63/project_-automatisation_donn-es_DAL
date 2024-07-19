@@ -35,7 +35,7 @@ Pour installer et exécuter le projet, suivez ces étapes :
 
 1. **Clonez le dépôt** :
    ```bash
-   git clone [URL_DU_DEPOT]
+   git clone https://github.com/simard63/project_-automatisation_donnes_DAL.git
 2. **Installez les dépendances** :
    ```bash
     pip install -r requirements.txt
