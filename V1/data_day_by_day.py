@@ -60,7 +60,7 @@ def data_dbd(df, conso_lait, visites,list):
     return grouped
 
 if __name__=="__main__":
-    zip_filename = r'V1\donnees\2024_06_03__10_12_02_touch01__csv_export.zip'  # file of DAL's data
+    zip_filename = r'..\data\2024_06_03__10_12_02_touch01__csv_export.zip'  # file of DAL's data
     start_date = "2023-09-15"
     end_date = "2024-03-30"
     nb_week = 9
